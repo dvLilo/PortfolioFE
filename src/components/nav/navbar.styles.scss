@@ -1,0 +1,43 @@
+.limayyNavbar {
+  background-color: #000;
+
+  position: relative;
+  display: flex;
+  width: 100vw;
+  padding: 16px 64px;
+  justify-content: space-between;
+  align-items: center;
+
+  & &__routes {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+
+  
+  & &__links,
+  & &__socials {
+    display: inline-block;
+    list-style: none;
+  }
+
+  & &__links > li {
+    display: inline-block;
+    margin: 0 24px;
+  
+    color: rgb(var(--foreground-inverted-rgb));
+  }
+
+  & &__socials > li {
+    display: inline-block;
+    margin: 0 16px;
+  
+    color: rgb(var(--foreground-inverted-rgb));
+  }
+}
+
+
+
+
+
+

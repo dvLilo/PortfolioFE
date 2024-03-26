@@ -3,17 +3,17 @@ import Image from "next/image"
 
 import { Facebook, GitHub, Instagram, Linkedin } from "react-feather"
 
-import styles from "./navbar.module.scss"
+import "@components/nav/navbar.styles.scss"
 
 const Navbar = () => {
   return (
-    <nav className={styles.limayyNavbar}>
+    <nav className="limayyNavbar">
       <Link href="/">
-        <Image className={styles.limayyNavbarLogo} src="/logo.png" alt="" width={54} height={54} />
+        <Image className="limayyNavbar__logo" src="/logo.png" alt="" width={54} height={54} />
       </Link>
 
-      <div className={styles.limayyNavbarRoutes}>
-        <ul className={styles.limayyNavbarLinks}>
+      <div className="limayyNavbar__routes">
+        <ul className="limayyNavbar__links">
           <li>
             <Link href="/about">about</Link>
           </li>
@@ -27,7 +27,7 @@ const Navbar = () => {
           </li>
         </ul>
 
-        <ul className={styles.limayyNavbarSocials}>
+        <ul className="limayyNavbar__socials">
           <li>
             <Link href="#"><Facebook /></Link>
           </li>
