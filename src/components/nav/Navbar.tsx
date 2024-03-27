@@ -1,3 +1,5 @@
+"use client"
+
 import Link from "next/link"
 import Image from "next/image"
 
@@ -41,7 +43,7 @@ const Navbar = () => {
           </li>
 
           <li>
-            <Link href="#"><Linkedin /></Link>
+            <Link href="https://linkedin.com/in/dvlilo/"><Linkedin /></Link>
           </li>
         </ul>
       </div>

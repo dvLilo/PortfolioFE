@@ -14,7 +14,7 @@
     gap: 24px;
   }
 
-  
+
   & &__links,
   & &__socials {
     display: inline-block;
@@ -24,20 +24,14 @@
   & &__links > li {
     display: inline-block;
     margin: 0 24px;
-  
+
     color: rgb(var(--foreground-inverted-rgb));
   }
 
   & &__socials > li {
     display: inline-block;
     margin: 0 16px;
-  
+
     color: rgb(var(--foreground-inverted-rgb));
   }
 }
-
-
-
-
-
-

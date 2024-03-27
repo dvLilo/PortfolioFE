@@ -1,11 +1,11 @@
-import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import type { Metadata } from "next"
+import { Inter } from "next/font/google"
 
-import Navbar from "@components/nav/Navbar";
+import Transition from "@components/transition/Transition"
 
-import "./globals.css";
+import "@app/globals.scss"
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "Ḻimꞻỵy",
@@ -15,14 +15,15 @@ export const metadata: Metadata = {
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode;
+  children: React.ReactNode
 }>) {
 
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Navbar />
-        {children}
+        <Transition>
+          {children}
+        </Transition>
       </body>
     </html>
   );

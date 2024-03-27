@@ -1,0 +1,11 @@
+.limayyHomePage {
+
+  & &__intro {
+    background: #04f404;
+    min-height: 86vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

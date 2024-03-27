@@ -1,0 +1,21 @@
+.limayyFooter {
+  min-height: 128px;
+  padding-left: 20vw;
+  padding-right: 20vw;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  & &__links {
+    display: inline-block;
+    list-style: none;
+  }
+
+  & &__links > li {
+    display: inline-block;
+    margin: 0 24px;
+
+    color: rgb(var(--foreground-rgb));
+  }
+}
