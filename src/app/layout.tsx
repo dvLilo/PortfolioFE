@@ -8,7 +8,8 @@ import "@app/globals.scss"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Ḻimꞻỵy",
+  // title: "Ḻimꞻỵy",
+  title: "Limayy",
   description: "Hello, Mom <3",
 };
 

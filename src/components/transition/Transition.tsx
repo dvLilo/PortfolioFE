@@ -20,7 +20,7 @@ const Transition = ({
       <div key={pathname} style={{ position: "relative", width: "100vw", height: "100vh", overflow: "hidden" }}>
         <motion.div
           className="limayyIntroTransition"
-          animate={{
+          initial={{
             transform: "scale(0)"
           }}
           exit={{
