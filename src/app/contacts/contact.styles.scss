@@ -1,0 +1,23 @@
+.limayyContactPage {
+
+  & &__intro {
+    // background: #04f404;
+    min-height: 74vh;
+
+    display: flex;
+    justify-content: center;
+  }
+
+  & &__wrapper {
+    background: #04f404;
+    width: 100%;
+    max-width: 1440px;
+
+    display: flex;
+    flex-direction: row;
+
+    & > div {
+      flex: 1;
+    }
+  }
+}
